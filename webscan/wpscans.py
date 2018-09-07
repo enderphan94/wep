@@ -1,7 +1,7 @@
 import subprocess
 import os
 
-fname = "url.txt"
+fname = "urls.txt"
 
 with open(fname) as f:
 	urls = f.readlines()
