@@ -1,0 +1,15 @@
+{
+  "name": "node-serialize",
+  "version": "0.0.4",
+  "description": "use for shell",
+  "main": "nodeADD.js",
+  "dependencies": {
+    "node-serialize": "^0.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

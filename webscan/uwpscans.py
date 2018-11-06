@@ -8,9 +8,8 @@ def wepscan():
 
 	with open(fname) as f:
 		urls = f.readlines()
-
 	for url in urls:
-		subprocess.call(['sudo', 'wpscan', '--url', url.strip(), '--enumerate', 'u'])
+		subprocess.call(['sudo', 'wpscan', '--url', url.strip(), '--enumerate', 'u', '--follow-redirection'])
 
 wepscan()
 	
